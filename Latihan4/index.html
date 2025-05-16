@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan4</title>
+</head>
+<style>
+    img{
+        width: 200px;
+        height:200px;
+    }
+</style>
+<body>
+    <h1>Pemenang Giveaway</h1>
+    <p>Selamat, Anda berkesempatan mendapatkan giveaway Samsung Galaxy S20 Ultra</p>
+    <img src="samsung.jpg" alt="Samsung Galaxy S20 Ultra">
+    <p>Silahkan isi form berikut ini</p>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamt" id="alamat" rows="4" cols="25" required></textarea><br>
+        <label for="pesan">Pesan:</label>
+        <textarea name="pesan" id="pesan" cols="25" rows="4"></textarea><br>
+    </form>
+    <fieldset>
+        <legend>Pilih Jenis Samsung</legend>
+        <input type="radio" name="jenissamsung" id="samsungsgalaxys20" value="samsungsgalaxys20" required>
+        <label for="samsunggalaxys20">Samsung Galaxy S20</label>
+        <input type="radio" name="jenissamsung" id="samsungsgalaxys20ultra" value="samsungsgalaxys20ultra" required>
+        <label for="samsunggalaxys20ultra">Samsung Galaxy S20 Ultra</label>
+    </fieldset>
+    <button type="submit">Submit</button>
+</body>
+</html>

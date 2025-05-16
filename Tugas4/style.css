@@ -1,0 +1,132 @@
+.container{
+    width: 1280px;
+    height: 832px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black
+}
+
+.header{
+    width: 1280px;
+    height: 338px;
+    flex-shrink:0 ;
+    align-items: center;
+    background: url(background.png);
+    text-align: center;
+}
+
+.profil-pict img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.header h1{
+    color:#ffffff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.header h2{
+    color:#ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header p{
+    color:#ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.specialities{
+    text-align: center;
+    align-items: center;
+}
+
+.specialities h1{
+    color: #ffffff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.specialities h2{
+    color: #FF00FF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.specialities p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card{
+    background: #3c3c3c;
+    border-radius: 8px;
+    margin: 0 30px;
+    width: 340px;
+    height: 220px;
+    flex-shrink: 0;
+
+}
+.card hr {
+    width: 40px;
+    border: none;        
+    border-top: 3px solid #FF00FF; 
+    border-radius: 20%;  
+}
+
+.icon-container {
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    background-color: #1f1f20; 
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    flex-shrink: o;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
